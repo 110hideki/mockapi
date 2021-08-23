@@ -1,0 +1,32 @@
+{
+  "songs" : [
+    {"id":1, "name":"Thriller", "artists":[1], "lylics":1},
+    {"id":2, "name":"Billie Jean", "artists":[1], "lylics":2},
+    {"id":3, "name":"Beat It", "artists":[1], "lylics":3},
+    {"id":4, "name":"We Are The World", "artists":[1], "lylics":4},
+    {"id":5, "name":"Bad", "artists":[1], "lylics":5},
+    {"id":6, "name":"Man In The Mirror", "artists":[1], "lylics":6},
+    {"id":7, "name":"Dirty Diana", "artists":[1], "lylics":7},
+    {"id":8, "name":"Black or White", "artists":[1], "lylics":8},
+    {"id":9, "name":"I Want You Back", "artists":[2], "lylics":9},
+    {"id":10, "name":"ABC", "artists":[2], "lylics":10},
+    {"id":11, "name":"The Love You Save", "artists":[2], "lylics":11}
+  ],
+  "artists": [
+    {"id":1, "name":"Michael Jackson", "song":[1,2,3,4,5,6,7,8]},
+    {"id":2, "name":"Jackson 5", "songs":[9,10]}
+  ],
+  "lylics": [
+    {"id":1, "name":"https://genius.com/albums/Michael-jackson/Thriller", "songs":[1]},
+    {"id":2, "name":"https://genius.com/Michael-Jackson-billie-jean-lyrics", "songs":[2]},
+    {"id":3, "name":"https://genius.com/Michael-Jackson-beat-it-lyrics", "songs":[3]},
+    {"id":4, "name":"https://genius.com/Usa-for-africa-we-are-the-world-lyrics", "songs":[4]},
+    {"id":5, "name":"https://genius.com/Michael-Jackson-bad-lyrics", "songs":[5]},
+    {"id":6, "name":"https://genius.com/Michael-Jackson-man-in-the-mirror-lyrics", "songs":[6]},
+    {"id":7, "name":"https://genius.com/Michael-jackson-dirty-diana-lyrics", "songs":[7]},
+    {"id":8, "name":"https://genius.com/Michael-jackson-black-or-white-lyrics", "songs":[8]},
+    {"id":9, "name":"https://genius.com/Jackson-5-i-want-you-back-lyrics", "songs":[9]},
+    {"id":10, "name":"https://genius.com/Jackson-5-abc-lyrics", "songs":[10]},
+    {"id":11, "name":"https://genius.com/Jackson-5-the-love-you-save-lyrics", "songs":[11]}
+  ]
+}
